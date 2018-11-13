@@ -1,0 +1,32 @@
+Cut Over Phases:
+===============
+
+First we need to check whether server is online or not, if not we need make it as onine.
+
+
+Phase -1: Readiness check
+---------------------------
+
+RAG status
+Services---Stopped Status
+Share folder access--Exists
+Available Space.
+
+
+If any service is in Stopped state need to note down in readiness phase after running readiness check.
+
+serial clock service stopped---We can ignore this alert.
+
+
+Alert Types:
+------------
+
+SchedulerAlertService 
+serial clock service
+
+Need to run the GIt clone 
+
+
+Phase -2: Backup:
+==================
+
